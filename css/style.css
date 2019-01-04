@@ -1,0 +1,52 @@
+nav{
+	background-color: #ddd !important;
+}
+body{
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Happy Monkey', cursive;
+}
+.empty{
+	height: 80px;
+}
+.main{
+	height: 800px;
+	width: 100%;
+	background-color: white;
+}
+.maintitle{
+	display: flex;
+	position: relative;
+	align-items: flex-start;
+	height: 300px;
+	width: 800px;
+	background-color: #91C5E6;
+	opacity: 0.6;
+}
+.hello{
+	position: absolute;
+	left: 70%;
+	top: 70%;
+	color: white;
+}
+
+#icon{
+	position: absolute;
+	left: 96%;
+	top: 90%;
+}
+.about{
+	text-align: left;
+}
+.mainphoto{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 0 20px 20px 10px;
+	clear: both;
+
+}
+p::first-letter{
+	font-size: 200%;
+	font-weight: bold;
+}
